@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {},
+      fontFamily: {
+        monts: ["Montserrat", "sans-serif"],
+        play: ["Playfair", "serif"],
+      },
       colors: {},
     },
   },
