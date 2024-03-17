@@ -7,7 +7,7 @@ const HomeComponent3 = () => {
       <Col md={20}>
         <Row justify="center">
           <Col md={12}>
-            <div className="flex flex-col p-8 md:border-r-2 md:border-black">
+            <div className="flex flex-col p-8 md:border-r-2 border-black max-md:border-b-2 ">
               <p className="font-monts mb-6 text-sm">
                 <span className="text-lg">
                   We are not just Digital Marketing Agency in Pakistan but your
