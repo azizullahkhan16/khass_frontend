@@ -3,46 +3,42 @@ import Link from "next/link";
 
 const HomeComponent3 = () => {
   return (
-    <Row justify="center py-2 bg-gray-300">
+    <Row justify="center py-2 bg-gray-100">
       <Col md={20}>
         <Row justify="center">
           <Col md={12}>
             <div className="flex flex-col p-8 md:border-r-2 border-black max-md:border-b-2 ">
               <p className="font-monts mb-6 text-sm">
-                <span className="text-lg">
-                  We are not just Digital Marketing Agency in Pakistan but your
-                  business partner in advertising and growth.
+                <span className="text-lg" style={{ color: '#1572A1' }}>
+                  Your business partner in strategy and growth.
                 </span>
                 <br />
-                <br /> By signing Digital Minds Pakistan as your digital
-                marketing advertising partner you meet with country’s most
-                seasoned digital markers.
+                <br /> Fueling Your Business Ambitions with Tailored Strategies and Collaborative Growth Partnerships, We're Your Trusted Ally in Navigating the Path to Success.
               </p>
               <div className="inline-block">
                 <Link
                   href="/contact"
-                  className="bg-white rounded-lg text-black px-4 py-2 font-monts font-normal "
+                  className="rounded-lg px-4 py-2 font-monts font-normal"
+                  style={{ backgroundColor: '#1572A1', color: '#FFFFFF' }}
                 >
                   Contact Now
                 </Link>
+
               </div>
             </div>
           </Col>
           <Col md={12}>
             <div className="flex flex-col p-8">
               <p className="font-monts mb-6 text-sm">
-                <span className="text-lg">Digital Marketing Services</span>
+                <span className="text-lg" style={{ color: '#1572A1' }}>Digital Marketing Services</span>
                 <br />
-                <br /> We believe in transforming an start up and local business
-                in to market leader in their niche by positioning them on Google
-                Search, adopting unique strategies for Social media advertising
-                and explore new avenues of business by tapping on right
-                platforms for our clients.
+                <br /> Transforming Brands through Dynamic Digital Marketing Solutions, Brandify Offers Tailored Strategies and Innovative Campaigns to Propel Your Online Presence and Drive Business Growth.
               </p>
               <div className="inline-block">
                 <Link
                   href="/contact"
-                  className="bg-white rounded-lg text-black px-4 py-2 font-monts font-normal "
+                  className="rounded-lg px-4 py-2 font-monts font-normal"
+                  style={{ backgroundColor: '#1572A1', color: '#FFFFFF' }}
                 >
                   Get Started Today
                 </Link>

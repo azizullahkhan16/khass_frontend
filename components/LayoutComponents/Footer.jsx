@@ -4,18 +4,15 @@ import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   const iconNames = [
-    "facebook",
-    "twitter",
-    "linkedin",
-    "youtube",
-    "instagram",
-    "pinterest",
+    "www.facebook.com/profile.php?id=61557688223223&mibextid=ZbWKwL",
+    "www.linkedin.com/company/brandify-business-solutions/",
+    "www.instagram.com/brandify.com.pk/?igsh=MXByZmh4czUzMWJ5eA%3D%3D",
   ];
   const customIcons = (name) => {
     return (
       <div>
         <SocialIcon
-          url={`https://${name}.com`}
+          url={`https://${name}`}
           style={{
             width: "32px",
             height: "32px",
@@ -26,13 +23,21 @@ const Footer = () => {
     );
   };
   return (
-    <Row justify="center" className="bg-gray-500 pt-16 max-md:pt-4">
+    <Row
+      justify="center"
+      className="py-16 max-md:py-4"
+      style={{
+        backgroundColor: "#ffffff",
+        color: "#1572A1",
+        fontWeight: "bold",
+      }}
+    >
       <Col sm={22} xs={22}>
         <Row>
           <Col md={10}>
             <div>
               <img src="./assets/images/logo.png" alt="logo" className="mb-4" />
-              <div className="flex justify-start font-roboto text-white text-base">
+              <div className="flex justify-start font-roboto text-base">
                 {iconNames.map((icon) => customIcons(icon))}
               </div>
             </div>
@@ -42,13 +47,13 @@ const Footer = () => {
             <Row justify="end">
               <Col md={6}>
                 <div className="flex flex-col">
-                  <p className="mb-4 font-roboto text-white text-base font-thin max-xl:text-xs">
+                  <p className="mb-4 font-roboto text-base font-thin max-xl:text-xs">
                     NAVIGATION
                   </p>
 
                   <p className="inline-block">
                     <Link
-                      className="font-roboto text-white text-base max-xl:text-xs hover:text-white"
+                      className="font-roboto max-xl:text-xs hover:text-gray-400"
                       href="/"
                     >
                       HOME
@@ -56,7 +61,7 @@ const Footer = () => {
                   </p>
                   <p className="inline-block">
                     <Link
-                      className="font-roboto text-white text-base max-xl:text-xs hover:text-white"
+                      className="font-roboto max-xl:text-xs hover:text-gray-400"
                       href="/about"
                     >
                       ABOUT US
@@ -65,7 +70,7 @@ const Footer = () => {
 
                   <p className="inline-block">
                     <Link
-                      className="font-roboto text-white text-base max-xl:text-xs hover:text-white"
+                      className="font-roboto max-xl:text-xs hover:text-gray-400"
                       href="/blogs"
                     >
                       WHO WE ARE
@@ -73,7 +78,7 @@ const Footer = () => {
                   </p>
                   <p className="inline-block">
                     <Link
-                      className="font-roboto text-white text-base max-xl:text-xs hover:text-white"
+                      className="font-roboto max-xl:text-xs hover:text-gray-400"
                       href="/services"
                     >
                       SERVICES
@@ -81,7 +86,7 @@ const Footer = () => {
                   </p>
                   <p className="inline-block">
                     <Link
-                      className="font-roboto text-white text-base max-xl:text-xs hover:text-white"
+                      className="font-roboto max-xl:text-xs hover:text-gray-400"
                       href="/contact"
                     >
                       CONTACT
@@ -95,7 +100,7 @@ const Footer = () => {
         <Row className="py-6" justify="center">
           <Col md={16} sm={24} xs={24} className="self-center">
             <div className="flex justify-center md:justify-start">
-              <p className="font-roboto text-white text-base max-xl:text-xs ">
+              <p className="font-roboto max-xl:text-xs ">
                 Copyright@2023 Home Decor Health. All Right Reserved | Made by
                 aktic.
               </p>

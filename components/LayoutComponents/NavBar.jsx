@@ -3,7 +3,14 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <Row justify="center" className=" bg-gray-400 py-2">
+    <Row
+      justify="center"
+      className="py-2"
+      style={{
+        backgroundColor: "#1572A1",
+        color: "white",
+      }}
+    >
       <Col md={20}>
         <Row justify="center">
           <Col md={4} className="inline-block">
@@ -61,5 +68,4 @@ const NavBar = () => {
     </Row>
   );
 };
-
 export default NavBar;
