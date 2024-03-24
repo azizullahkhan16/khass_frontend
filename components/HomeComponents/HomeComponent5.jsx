@@ -44,51 +44,7 @@ const HomeComponent5 = () => {
       heading: "Content Marketing",
       text: "Comprehensive content services encompassing strategy, creation, promotion, and performance optimization.",
     },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Pay-Per-Click Advertising (PPC)",
-      text: "Versatile advertising expertise across platforms, ad types, and optimization strategies for impactful campaigns.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Email Marketing",
-      text: "Complete email marketing solutions covering strategy, list segmentation, template design, automation, and analytics.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Influencer Marketing",
-      text: "Efficient influencer management from identification to performance tracking.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Online Reputation Management (ORM)",
-      text: "Proactive online reputation management, addressing mentions, reviews, and customer feedback for a positive brand image.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Mobile Marketing",
-      text: "Comprehensive mobile app marketing including SMS marketing and mobile search advertising.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Local SEO",
-      text: "Efficient local SEO services covering keyword optimization, Google My Business, directory listings, and localized content creation.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Mobile Marketing",
-      text: "Comprehensive mobile app marketing including SMS marketing and mobile search advertising.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Financial Consulting",
-      text: "Comprehensive financial services encompassing analysis, cash flow management, budgeting, investment recommendations, and KPI tracking.",
-    },
-    {
-      image: "./assets/images/icon1.png",
-      heading: "Accounting Services",
-      text: "Efficient financial services covering bookkeeping, financial statement preparation, payroll, tax planning, and KPI tracking for accuracy and compliance.",
-    },
+
   ];
   return (
     <Row justify="center" className="py-8" style={{ backgroundColor: '#FFFFFF' }}>
