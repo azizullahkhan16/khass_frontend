@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <Row
       justify="center"
-      className="py-16 max-md:py-4"
+      className="pt-16 max-md:py-4"
       style={{
         backgroundColor: "#ffffff",
         color: "#1572A1",
