@@ -39,9 +39,9 @@ const HomeComponent2 = () => {
           <div className="flex flex-col justify-center items-center mb-2">
             <h3 className="font-play text-3xl text-center">
               Leading{" "}
-              <span className="font-bold" style={{ color: '#1572A1' }}>Business Solution Agency</span>
+              <span className="font-bold font-montserrat" style={{ color: '#1572A1' }}>Business Solution Agency</span>
             </h3>
-            <h5 className="font-play text-xl text-center">
+            <h5 className="font-palanquin text-xl text-center">
               Transforming Local/International Small Businesses into Market
               Leaders
             </h5>

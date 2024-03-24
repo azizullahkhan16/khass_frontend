@@ -6,10 +6,10 @@ const HomeComponent4 = () => {
       <Col md={8} sm={20} xs={20}>
         <div className="flex flex-col bg-white rounded-lg shadow-3xl p-4 items-center justify-center">
           <img src={image} alt="pic1" className="mb-6" />
-          <h5 className="font-monts mb-4 text-lg font-semibold text-center" style={{ color: '#1572A1' }}>
+          <h5 className="font-palanquin mb-4 text-lg font-semibold text-center" style={{ color: '#1572A1' }}>
             {heading}
           </h5>
-          <p className="font-monts mb-2 text-center text-sm">{text}</p>
+          <p className="font-palanquin mb-2 text-center text-sm">{text}</p>
         </div>
       </Col>
     );
@@ -37,7 +37,7 @@ const HomeComponent4 = () => {
       <Col md={20}>
         <Row justify="center">
           <div className="flex flex-col items-center justify-center mb-6">
-            <h3 className="font-monts font-semibold text-3xl mb-4 text-center" style={{ color: '#ffffff' }}>
+            <h3 className="font-monts font-bold text-4xl mb-4 text-center" style={{ color: '#ffffff' }}>
               Why Brandify Pakistan?
             </h3>
             <p className="font-monts font-normal text-xl mb-4 text-center" style={{ color: '#ffffff' }}>

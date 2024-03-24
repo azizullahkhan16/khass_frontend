@@ -4,7 +4,7 @@ import "@styles/globals.css";
 import Footer from "./../components/LayoutComponents/Footer";
 
 export const metadata = {
-  title: "Khass Solutions",
+  title: "Brandify Solutions",
   description: "SEO services",
 };
 
@@ -12,7 +12,7 @@ const layout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <SubHeader />
+        {/* <SubHeader /> */}
         <NavBar />
         <div>{children}</div>
         <Footer />

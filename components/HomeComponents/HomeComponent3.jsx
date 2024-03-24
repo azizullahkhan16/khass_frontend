@@ -7,9 +7,9 @@ const HomeComponent3 = () => {
       <Col md={20}>
         <Row justify="center">
           <Col md={12}>
-            <div className="flex flex-col p-8 md:border-r-2 border-black max-md:border-b-2 ">
+            <div className="flex flex-col  p-8 md:border-r-2 border-black max-md:border-b-2 ">
               <p className="font-monts mb-6 text-sm">
-                <span className="text-lg" style={{ color: '#1572A1' }}>
+                <span className="text-lg font-mont" style={{ color: '#1572A1' }}>
                   Your business partner in strategy and growth.
                 </span>
                 <br />
