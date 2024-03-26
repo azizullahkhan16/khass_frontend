@@ -5,7 +5,7 @@ import "@styles/Navbar.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="bg-white fixed top-0 z-50 w-full py-2 shadow-md">
+      <nav className="bg-white fixed top-0 z-50 w-full py-2 shadow-lg">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -27,11 +27,11 @@ const NavBar = () => {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <a href="/" className="text-[#1572A1] hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-sm font-medium">HOME</a>
-                  <a href="/about" className="text-[#1572A1] hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-sm font-medium">ABOUT</a>
-                  <a href="/blogs" className="text-[#1572A1] hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-sm font-medium">WHO WE ARE</a>
-                  <a href="/services" className="text-[#1572A1] hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-sm font-medium">SERVICES</a>
-                  <a href="/contact" className="text-[#1572A1] hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-sm font-medium">CONTACT</a>
+                  <a href="/" className="text-black hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-m font-medium">Home</a>
+                  <a href="/about" className="text-black hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-m font-medium">About</a>
+                  <a href="/blogs" className="text-black hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-m font-medium">Who we are</a>
+                  <a href="/services" className="text-black hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-m font-medium">Services</a>
+                  <a href="/contact" className="text-black hover:bg-[#1572A1] hover:text-white rounded-md px-3 py-2 text-m font-medium">Contact</a>
                 </div>
               </div>
             </div>

@@ -12,7 +12,7 @@ const layout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        {/* <SubHeader /> */}
+        <SubHeader />
         <NavBar />
         <div>{children}</div>
         <Footer />
