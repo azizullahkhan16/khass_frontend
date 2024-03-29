@@ -14,6 +14,7 @@ const NavBar = () => {
                 className="relative inline-flex items-center justify-center rounded-md p-2 text-bg-primaryBlue hover:bg-primaryBlue hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
+
               >
                 <span className="absolute -inset-0.5"></span>
                 <span className="sr-only">Open main menu</span>
