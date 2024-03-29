@@ -11,7 +11,7 @@ const NavBar = () => {
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
-                className="relative inline-flex items-center justify-center rounded-md p-2 text-[#1572A1] hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="relative inline-flex items-center justify-center rounded-md p-2 text-bg-primaryBlue hover:bg-primaryBlue hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -118,31 +118,42 @@ const NavBar = () => {
           <div className="space-y-1 px-2 pb-3 pt-2">
             <a
               href="#"
-              className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="bg-primaryBlue text-white block rounded-md px-3 py-2 text-base font-medium"
               aria-current="page"
             >
-              Dashboard
+              Home
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-gray-300 hover:bg-primaryBlue hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Team
+              About
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-gray-300 hover:bg-primaryBlue hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Projects
+              Who we are
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+              className="text-gray-300 hover:bg-primaryBlue hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >
-              Calendar
+              Services
+            </a>
+            <a
+              href="#"
+              className="text-gray-300 hover:bg-primaryBlue hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            >
+              Contact
             </a>
           </div>
         </div>
+
+
+
+
+
       </nav>
     </div>
   );
