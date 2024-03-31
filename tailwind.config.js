@@ -11,7 +11,9 @@ module.exports = {
         monts: ["Montserrat", "sans-serif"],
         play: ["Playfair", "serif"],
       },
-      colors: {},
+      colors: {
+        primaryBlue: "#1572A1",
+      },
     },
   },
   plugins: [],

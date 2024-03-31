@@ -16,7 +16,7 @@ const ContactComponent2 = () => {
   };
 
   return (
-    <Row justify="center" className="bg-purple-950 py-16">
+    <Row justify="center" className="bg-primaryBlue py-16">
       <Col md={22}>
         <Form
           form={form}
